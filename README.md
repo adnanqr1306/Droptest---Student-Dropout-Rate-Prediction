@@ -67,8 +67,16 @@ A machine learning web application built with **Streamlit** that predicts studen
    ```bash
    pip install -r requirements.txt
    ```
+4. **Run data_processing File**
+   ```bash
+   pyhton -u src/data_processing.py
+   ```
+5. **Run train_model File**
+   ```bash
+   pyhton -u src/train_model.py
+   ```
 
-4. **Run Streamlit App**
+6. **Run Streamlit App**
    ```bash
    streamlit run src/app.py
    ```
