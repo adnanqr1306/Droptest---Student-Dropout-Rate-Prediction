@@ -69,11 +69,11 @@ A machine learning web application built with **Streamlit** that predicts studen
    ```
 4. **Run data_processing File**
    ```bash
-   pyhton -u src/data_processing.py
+   python -u src/data_processing.py
    ```
 5. **Run train_model File**
    ```bash
-   pyhton -u src/train_model.py
+   python -u src/train_model.py
    ```
 
 6. **Run Streamlit App**
